@@ -1,0 +1,39 @@
+package dao;
+
+public class BoardObj {
+	private String bid;
+	private String btitle;
+	private String bcontent;
+	private String bmember;
+	private String bdate;
+
+	public BoardObj(String bid, String btitle, String bcontent, String bmember, String bdate) {
+		super();
+		this.bid = bid;
+		this.btitle = btitle;
+		this.bcontent = bcontent;
+		this.bmember = bmember;
+		this.bdate = bdate;
+	}
+
+	public String getBid() {
+		return bid;
+	}
+
+	public String getBtitle() {
+		return btitle;
+	}
+
+	public String getBcontent() {
+		return bcontent;
+	}
+
+	public String getBmember() {
+		return bmember;
+	}
+
+	public String getBdate() {
+		return bdate;
+	}
+
+}

@@ -1,0 +1,10 @@
+package dao;
+
+public class BoardObj {
+	private String bid;
+	private String btitle;
+	private String bcontent;
+	private String bmember;
+	private String bdate;
+	
+}

@@ -1,0 +1,16 @@
+127.0.0.1 - - [14/Nov/2021:06:46:11 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:15 +0900] "GET /awesomePlace/main.jsp HTTP/1.1" 200 4880
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:15 +0900] "GET /css/font.css HTTP/1.1" 404 823
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:15 +0900] "GET /awesomePlace/images/4.jpg HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:15 +0900] "GET /awesomePlace/images/2.jpg HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:15 +0900] "GET /awesomePlace/images/1.jpg HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:15 +0900] "GET /awesomePlace/images/3.jpg HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:22 +0900] "GET /awesomePlace/main.jsp HTTP/1.1" 200 4880
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:23 +0900] "GET /css/font.css HTTP/1.1" 404 823
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:23 +0900] "GET /awesomePlace/images/2.jpg HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:23 +0900] "GET /awesomePlace/images/1.jpg HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:23 +0900] "GET /awesomePlace/images/3.jpg HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:23 +0900] "GET /awesomePlace/images/4.jpg HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:23 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:37 +0900] "GET /intro/intro.jsp HTTP/1.1" 404 811
+0:0:0:0:0:0:0:1 - - [14/Nov/2021:06:46:40 +0900] "GET /menu/mCoffee.jsp HTTP/1.1" 404 812

@@ -1,0 +1,8 @@
+
+asda
+CREATE TABLE coffee(
+cname VARCHAR(50),
+kcal VARCHAR(20),
+caffeine VARCHAR(20),
+sugars VARCHAR(20)
+)DEFAULT CHARSET=UTF8;

@@ -1,0 +1,24 @@
+
+--COFFEE 
+CREATE TABLE coffee(
+cname VARCHAR(50),
+ckcal VARCHAR(20),
+ccaffeine VARCHAR(20),
+csugars VARCHAR(20)
+)DEFAULT CHARSET=UTF8;
+
+--TEA 
+CREATE TABLE tea(
+tname VARCHAR(50),
+tkcal VARCHAR(20),
+tcaffeine VARCHAR(20),
+tsugars VARCHAR(20)
+)DEFAULT CHARSET=UTF8;
+
+--JUICE 
+CREATE TABLE juice(
+jname VARCHAR(50),
+jkcal VARCHAR(20),
+jcaffeine VARCHAR(20),
+jsugars VARCHAR(20)
+)DEFAULT CHARSET=UTF8;

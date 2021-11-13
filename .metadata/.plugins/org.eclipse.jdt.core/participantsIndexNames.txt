@@ -1,0 +1,19 @@
+INDEX VERSION 1.131
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3125616133.index
+\awesomePlace\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3690889792.index
+\WebShop2\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\24607020.index
+\awesomePlace\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3063535965.index
+\awesomePlace\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1284170436.index
+\WebShop2\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2012438419.index
+\WebShop2\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4050995649.index
+\WebShop2\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1635163702.index
+\WebShop2\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\153184118.index
+\awesomePlace\src

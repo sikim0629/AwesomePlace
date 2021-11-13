@@ -1,0 +1,2816 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta name="viewport" content="width=1200" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="naver-site-verification" content="8df6f580cb0061db8e179a681de995e1ad0b9216"/>
+
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=10,chrome=1">
+<meta name="description" content="메가커피 커피전문점, 프랜차이즈, 메가엠지씨커피, 빅사이즈 투샷, 가맹안내, 테이크아웃">
+<!-- NAVER open graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="메가MGC커피 프랜차이즈">
+<meta property="og:description" content="메가커피 커피전문점, 프랜차이즈, 메가엠지씨커피, 빅사이즈 투샷, 가맹안내, 테이크아웃">
+<meta property="og:image" content="http://www.megacoffee.me/images/main/top_logo.png">
+<meta property="og:url" content="http://www.megacoffee.me">
+<!-- NAVER web END -->
+<title>메가MGC커피 프랜차이즈</title>
+
+<link rel="stylesheet" href="http://www.megacoffee.me/theme/basic/css/default.css">
+<link rel="stylesheet" href="http://www.megacoffee.me/skin/content/basic/style.css">
+<!--[if lte IE 8]>
+<script src="http://www.megacoffee.me/js/html5.js"></script>
+<![endif]-->
+<script>
+// 자바스크립트에서 사용하는 전역변수 선언
+var g5_url       = "http://www.megacoffee.me";
+var g5_bbs_url   = "http://www.megacoffee.me/bbs";
+var g5_is_member = "";
+var g5_is_admin  = "";
+var g5_is_mobile = "";
+var g5_bo_table  = "";
+var g5_sca       = "";
+var g5_editor    = "";
+var g5_cookie_domain = "";
+</script>
+<script src="http://www.megacoffee.me/js/jquery-1.8.3.min.js"></script>
+<script src="http://www.megacoffee.me/js/jquery.menu.js"></script>
+<script src="http://www.megacoffee.me/js/common.js"></script>
+<script src="http://www.megacoffee.me/js/wrest.js"></script>
+
+<script type="text/javascript">
+  WebFontConfig = {
+    custom: {
+        families: ['Nanum Gothic'], urls: ['http://cdn.jsdelivr.net/font-nanum/1.0/nanumgothic/nanumgothic.css']
+    }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); 
+ </script>
+
+<link href="/theonecg.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+<embed src="/2_megacoffee_MASTER.wav" width="0" height="0" hidden="false" autostart="true"></embed>
+
+
+    
+    <!--레이어설정-->
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_showHideLayers() { //v6.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+</script>
+<div id="navover" style="position:absolute; width:100%; top:0px; z-index:1; visibility: hidden;">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#363636">
+    <tr>
+      <td style="padding:8px 0px;"><table width="1200"  border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="400" rowspan="2"><a href="/"><img src="/images/main/top_logo.png" border="0"></a></td>
+          <td height="35" colspan="6" align="right">&nbsp;&nbsp;<a href="/bbs/login.php"><img src="/images/main/btn_login.png" alt="LOGIN" /></a></td>
+        </tr>
+        <tr>
+          <td width="145"><div align="center"><a href="/bbs/content.php?co_id=brand1"><img src="/images/main/nav1.png" onMouseOver="MM_showHideLayers('navover','','show')" border="0"></a></div></td>
+          <td width="120"><div align="center"><a href="/bbs/content.php?co_id=menu8"><img src="/images/main/nav2.png" border="0" onMouseOver="MM_showHideLayers('navover','','show')"></a></div></td>
+          <td width="145"><div align="center"><a href="/bbs/content.php?co_id=FRANCHISE3"><img src="/images/main/nav3.png" onMouseOver="MM_showHideLayers('navover','','show')" border="0"></a></div></td>
+          <td width="120"><div align="center"><a href="/bbs/board.php?bo_table=store"><img src="/images/main/nav4.png" onMouseOver="MM_showHideLayers('navover','','show')" border="0"></a></div></td>
+          <td width="120"><div align="center"><a href="/bbs/board.php?bo_table=event"><img src="/images/main/nav5.png" onMouseOver="MM_showHideLayers('navover','','show')" border="0"></a></div></td>
+          <td valign="top"><table width="149" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td><div align="right"><a href="http://blog.naver.com/ekddusekddus" target="_blank"><img src="/images/main/top_blog.png" border="0"></a>&nbsp;<a href="https://www.facebook.com/메가커피-101328853595376/" target="_blank"><img src="/images/main/top_facebook.png" border="0"></a>&nbsp;<a href="https://www.instagram.com/mega_coffee/?hl=ko" target="_blank"><img src="/images/main/top_insta.png" border="0"></a></div></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+
+  <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td height="179" valign="top" background="/images/sub/nav_bg.png"><table width="1200" border="0" align="center" cellpadding="0" cellspacing="0" background="../images/sub/nav_line.png">
+            <tr>
+              <td width="400">&nbsp;</td>
+              <td width="145">&nbsp;</td>
+              <td width="120">&nbsp;</td>
+              <td width="145">&nbsp;</td>
+              <td width="120">&nbsp;</td>
+              <td width="120">&nbsp;</td>
+              <td></td>
+            </tr>
+
+                        <tr>
+            <td>&nbsp;</td>                  <td><a href="/bbs/content.php?co_id=brand1" class="navsub">회사 소개</a></td>                              <td><a href="/bbs/content.php?co_id=menu1" class="navsub">COFFEE</a></td>                              <td height="30"><a href="/bbs/content.php?co_id=FRANCHISE3" class="navsub">개설비용</a></td>                              <td><a href="/bbs/board.php?bo_table=store" class="navsub">매장 찾기</a></td>                              <td><a href="/bbs/board.php?bo_table=storestory" class="navsub">우수가맹점</a></td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>            <td>&nbsp;</td>
+            </tr>
+                        <tr>
+            <td>&nbsp;</td>                  <td><a href="/bbs/content.php?co_id=brand2" class="navsub">브랜드 소개</a></td>                              <td><a href="/bbs/content.php?co_id=menu2" class="navsub">BEVERAGE</a></td>                              <td height="30"><a href="/bbs/content.php?co_id=FRANCHISE1" class="navsub">인테리어</a></td>                              <td>&nbsp;</td>                              <td><a href="/bbs/board.php?bo_table=news" class="navsub">언론보도</a></td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>            <td>&nbsp;</td>
+            </tr>
+                        <tr>
+            <td>&nbsp;</td>                  <td><a href="/bbs/content.php?co_id=brand3" class="navsub">비전</a></td>                              <td><a href="/bbs/content.php?co_id=menu3" class="navsub">TEA</a></td>                              <td height="30"><a href="/bbs/content.php?co_id=FRANCHISE4" class="navsub">FAQ</a></td>                              <td>&nbsp;</td>                              <td><a href="/bbs/board.php?bo_table=eventnotice" class="navsub">공지사항</a></td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>            <td>&nbsp;</td>
+            </tr>
+                        <tr>
+            <td>&nbsp;</td>                  <td><a href="/bbs/content.php?co_id=brand4" class="navsub">BI</a></td>                              <td><a href="/bbs/content.php?co_id=menu4" class="navsub">JUICE</a></td>                              <td height="30"><a href="/bbs/write.php?bo_table=joincontact" class="navsub">가맹문의</a></td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>            <td>&nbsp;</td>
+            </tr>
+                        <tr>
+            <td>&nbsp;</td>                  <td><a href="/bbs/content.php?co_id=brand5" class="navsub">오시는 길</a></td>                              <td><a href="/bbs/content.php?co_id=menu5" class="navsub">ADE</a></td>                              <td height="30"><a href="/bbs/content.php?co_id=FRANCHISE2" class="navsub">개설절차</a></td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>            <td>&nbsp;</td>
+            </tr>
+                        <tr>
+            <td>&nbsp;</td>                  <td>&nbsp;</td>                              <td><a href="/bbs/content.php?co_id=menu6" class="navsub">SMOOTHIE & FRAPPE</a></td>                              <td height="30">&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>            <td>&nbsp;</td>
+            </tr>
+                        <tr>
+            <td>&nbsp;</td>                  <td>&nbsp;</td>                              <td><a href="http://www.megacoffee.me/bbs/content.php?co_id=menu7" class="navsub">DESSERT</a></td>                              <td height="30">&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>            <td>&nbsp;</td>
+            </tr>
+                        <tr>
+            <td>&nbsp;</td>                  <td>&nbsp;</td>                              <td><a href="http://www.megacoffee.me/bbs/content.php?co_id=menu8" class="navsub">NEW & BEST</a></td>                              <td height="30">&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>                              <td>&nbsp;</td>            <td>&nbsp;</td>
+            </tr>
+            
+            <tr>
+              <td style="padding-left:7px;">&nbsp;</td>
+              <td style="padding-left:7px;">&nbsp;</td>
+              <td height="30">&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td><div align="right"><a href="#" onclick="MM_showHideLayers('navover','','hide')"><img src="/images/sub/nav_close.png" width="28" height="28" hspace="5" border="0"></a></div></td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td height="30">&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td></td>
+              <td></td>
+            </tr>
+      </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="17"><img src="/images/sub/blank.png" width="100%" height="17" onMouseOver="MM_showHideLayers('navover','','hide')"></td>
+    </tr>
+  </table>
+</div>
+
+    <!--table width="100%" height="3"  border="0" cellpadding="0" cellspacing="0">
+  <tr><td bgcolor="302B27"></td></tr>
+</table-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#363636">
+    <tr>
+      <td style="padding:8px 0px;">
+<table width="1200"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="400" rowspan="2"><a href="/"><img src="/images/main/top_logo.png" border="0"></a></td>
+    <td height="35" colspan="6" align="right">&nbsp;&nbsp;<a href="/bbs/login.php"><img src="/images/main/btn_login.png" alt="LOGIN" /></a></td>
+  </tr>
+  <tr>
+    <td width="145"><div align="center"><a href="/bbs/content.php?co_id=brand1"><img src="/images/main/nav1.png" onMouseOver="MM_showHideLayers('navover','','show')" border="0"></a></div></td>
+    <td width="120"><div align="center"><a href="/bbs/content.php?co_id=menu8"><img src="/images/main/nav2.png" border="0" onMouseOver="MM_showHideLayers('navover','','show')"></a></div></td>
+    <td width="145"><div align="center"><a href="/bbs/content.php?co_id=FRANCHISE3"><img src="/images/main/nav3.png" onMouseOver="MM_showHideLayers('navover','','show')" border="0"></a></div></td>
+    <td width="120"><div align="center"><a href="/bbs/board.php?bo_table=store"><img src="/images/main/nav4.png" onMouseOver="MM_showHideLayers('navover','','show')" border="0"></a></div></td>
+    <td width="120"><div align="center"><a href="/bbs/board.php?bo_table=event"><img src="/images/main/nav5.png" onMouseOver="MM_showHideLayers('navover','','show')" border="0"></a></div></td>
+    <td valign="top"><table width="149" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td><div align="right"><a href="http://blog.naver.com/ekddusekddus" target="_blank"><img src="/images/main/top_blog.png" border="0"></a>&nbsp;<a href="https://www.facebook.com/메가커피-101328853595376/" target="_blank"><img src="/images/main/top_facebook.png" border="0"></a>&nbsp;<a href="https://www.instagram.com/mega_coffee/?hl=ko" target="_blank"><img src="/images/main/top_insta.png" border="0"></a></div></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+      </td>
+    </tr>
+</table>
+    <table width="100%" height="100"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td background="/images/main/sub_keyimage.jpg"></td>
+  </tr>
+</table>
+
+	<script language="JavaScript1.2">
+function show_list(val)
+{
+	location.href = "/help/faq.do?code=" + val;
+}
+
+function showFaq(id)
+{
+	var i;
+	var cur_display;
+	var cur_ele;
+	var ele;
+	
+	cur_ele = document.all["faq" + id];
+	cur_display = cur_ele.style.display;
+
+	for (i = 0; i < 50; i++)
+	{
+		ele = document.all["faq" + i];
+		if (ele != null)
+		{
+			if (i != id)
+			{
+				ele.style.display = "none";
+			}
+		}
+	}
+
+	if (cur_display == "none")
+		cur_ele.style.display = "";
+	else
+		cur_ele.style.display = "none";
+}
+
+function goPage(page) {
+	document.f.currPage.value = page;
+	document.f.submit();
+}
+
+function golike() {
+	
+	ptype = document.faq.searchCon.value;
+	like = document.faq.searchTxt.value;
+
+	
+	if( ptype == ""){
+		alert("분류를 선택하십시요.");
+		return;
+	}
+	if( like == ""){
+		alert("검색명을 입력하십시요.");
+		return;
+	}
+	document.faq.submit();
+}
+</script>
+<style>
+a {
+selector-dummy: expression(this.hideFocus=true);
+}
+</style>
+
+<table width="1000" height="40" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<table width="1000" height="51" align="center" background="/images/sub/nav125_bg.gif" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td width="125"><div align="center"><a class="leftlink" href="/bbs/content.php?co_id=menu8">NEW &amp; BEST </a></div></td>
+      <td width="125" background="/images/sub/nav125_on.gif"><div align="center"><a class="leftlinkselect" href="/bbs/content.php?co_id=menu1">COFFEE</a></div></td>
+      <td width="125"><div align="center"><a class="leftlink" href="/bbs/content.php?co_id=menu2">BEVERAGE</a></div></td>
+      <td width="125"><div align="center"><a class="leftlink" href="/bbs/content.php?co_id=menu3">TEA</a></div></td>
+      <td width="125"><div align="center"><a class="leftlink" href="/bbs/content.php?co_id=menu4">JUICE</a></div></td>
+      <td width="125"><div align="center"><a class="leftlink" href="/bbs/content.php?co_id=menu5">ADE</a></div></td>
+      <td width="125"><div align="center"><a class="leftlink" href="/bbs/content.php?co_id=menu6">SMOOTHIE &amp;<br>
+          FRAPPE </a></div></td>
+      <td width="125"><div align="center"><a class="leftlink" href="/bbs/content.php?co_id=menu7">DESSERT</a></div></td>
+    </tr>
+  </tbody>
+</table>
+<table width="1000" height="100" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><div align="center"><img width="640" height="76" src="/images/title/menu_coffee.png"></div></td>
+    </tr>
+  </tbody>
+</table>
+<table width="100%" height="1" bgcolor="#c3bdbb" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<table width="1000" height="40" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<table width="1000" align="center" style="margin-top: 40px;" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><div align="right"><font color="#ff0000"><strong>※ 본 이미지는 연출컷입니다.</strong></font></div></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<!------------------------------------------------------------------------------------------------------------------------------------->
+
+<table width="1000" align="center" bgcolor="#ecd9a6" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr bgcolor="#ffffff">
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(0)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/26s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>아메리카노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(4)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/26s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>꿀아메리카노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(1)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/27s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>카페라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(2)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/28s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>카라멜마끼아또</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(3)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/29s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>바닐라라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq0" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/26.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>아메리카노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">에스프레소에 물을 혼합한 커피 메가커피의 부드럽고 풍부한 바디감을 느낄 수 있는 메가커피 대표 음료</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">18.0 Kcal </div></td>
+                      <td><div align="center">0.9 g </div></td>
+                      <td><div align="center">0.0 g</div></td>
+                      <td><div align="center">0.3 mg </div></td>
+                      <td><div align="center">0.3 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq4" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/26.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>꿀아메리카노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">메가커피의 진하고 마일드한 아메리카노와 진한 사양벌꿀의 만남</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">102.7 Kcal </div></td>
+                      <td><div align="center">0.9 g </div></td>
+                      <td><div align="center">27.1 g</div></td>
+                      <td><div align="center">2.6 mg </div></td>
+                      <td><div align="center">0.4 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq1" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/27.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>카페라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">진한 에스프레소와 부드러운 우유가 만나 고소한 풍미를 더하는 메뉴 가장 대중적인 메뉴</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">206.5 Kcal </div></td>
+                      <td><div align="center">8.2 g </div></td>
+                      <td><div align="center">13.1 g</div></td>
+                      <td><div align="center">0.4 mg </div></td>
+                      <td><div align="center">10.4 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq2" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/28.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>카라멜마끼아또</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">폼 밀크의 부드러움과 카라멜의 달콤함 그리고 에스프레소의 진한 맛이 돋보이는 메가커피 인기 메뉴</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">290.2 Kcal </div></td>
+                      <td><div align="center">7.5 g </div></td>
+                      <td><div align="center">36.5 g</div></td>
+                      <td><div align="center">0.4 mg </div></td>
+                      <td><div align="center">9.6 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq3" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/29.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>바닐라라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain"> 진한 바닐라향과 부드러운 폼 밀크의 조화</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">272.7 Kcal </div></td>
+                      <td><div align="center">7.5 g </div></td>
+                      <td><div align="center">32.5 g</div></td>
+                      <td><div align="center">15.8 mg </div></td>
+                      <td><div align="center">9.6 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+<!------------------------------------------------------------------------------------------------------------------------------------------------->
+    <tr bgcolor="#ffffff">
+      <td height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(6)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/29s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>카페모카</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(5)"><img width="150" height="150" src="http://www.megacoffee.me/images/menu/coffee/30s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>민트카페모카</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(7)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/31s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>카푸치노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(8)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/32s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>티라미수라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(24)"><img width="150" height="150" src="http://www.megacoffee.me/images/menu/coffee/33s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>연유라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq6" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/29.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>카페모카</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">초코시럽을 만나 풍부해진 에스프레소와 부드러운 우유의 혼합 그리고 마지막으로 더해지는 달콤한 휘핑크림이 올라간 메뉴</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">303.6 Kcal </div></td>
+                      <td><div align="center">15.1 g </div></td>
+                      <td><div align="center">36.3 g</div></td>
+                      <td><div align="center">71.6 mg </div></td>
+                      <td><div align="center">11.4 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq5" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.megacoffee.me/images/menu/coffee/30.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>민트카페모카</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain"></td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">303.6Kcal </div></td>
+                      <td><div align="center">15.2 g </div></td>
+                      <td><div align="center">61.8 g</div></td>
+                      <td><div align="center">72.7 mg </div></td>
+                      <td><div align="center">11.4 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq7" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/31.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>카푸치노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain"></td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">175.0 Kcal </div></td>
+                      <td><div align="center">6.9 g </div></td>
+                      <td><div align="center">11.0 g</div></td>
+                      <td><div align="center">0.4 mg </div></td>
+                      <td><div align="center">8.7 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq8" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/32.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>티라미수라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">티라미수소스를 만나 한층 풍부해진 에스프레소에 우유로 부드러움을 더한 달콤한 크림이 곁들여진 메가커피 베스트 음료</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">487.7 Kcal </div></td>
+                      <td><div align="center">21.0 g </div></td>
+                      <td><div align="center">38.2 g</div></td>
+                      <td><div align="center">94.3 mg </div></td>
+                      <td><div align="center">10.7 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq24" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.megacoffee.me/images/menu/coffee/33.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>연유라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain"></td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">353.8 Kcal </div></td>
+                      <td><div align="center">10.3 g </div></td>
+                      <td><div align="center">41.1 g</div></td>
+                      <td><div align="center">55.1 mg </div></td>
+                      <td><div align="center">12.7 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    
+    <!-- ★20161205 추가 -->
+    <tr bgcolor="#ffffff">
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(27)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/26s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>헤이즐넛아메리카노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(28)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/images/menu/coffee/26s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>바닐라아메리카노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(29)"><img width="150" height="150" src="/images/menu/coffee/46s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>헤이즐넛라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198" height="200"><!--table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(22)"><img width="150" height="150" src="" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"> </div></td>
+            </tr>
+          </tbody>
+        </table--></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr id="faq27" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/26.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>헤이즐넛아메리카노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">-</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">95.5 Kcal </div></td>
+                      <td><div align="center">0.9 g </div></td>
+                      <td><div align="center">13.4 g</div></td>
+                      <td><div align="center">0.5 mg </div></td>
+                      <td><div align="center">0.3 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq28" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/images/menu/coffee/26.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>바닐라아메리카노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">-</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td width="70"><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">100.4 Kcal </div></td>
+                      <td><div align="center">0.9 g </div></td>
+                      <td><div align="center">20.5 g</div></td>
+                      <td><div align="center">15.7 mg </div></td>
+                      <td><div align="center">0.3 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq29" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/46.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>헤이즐넛라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">-</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">267.8Kcal </div></td>
+                      <td><div align="center">7.5 g </div></td>
+                      <td><div align="center">25.3 g</div></td>
+                      <td><div align="center">0.6 mg </div></td>
+                      <td><div align="center">9.6 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq22" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src=""></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong></strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">-</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">0 Kcal </div></td>
+                      <td><div align="center">0 g </div></td>
+                      <td><div align="center">0 g</div></td>
+                      <td><div align="center">0 mg </div></td>
+                      <td><div align="center">0 g</div></td>
+                      <td class="text13explain"><div align="center">0 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------> 
+  </tbody>
+</table>
+<table width="1000" height="30" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><div align="center"></div></td>
+    </tr>
+  </tbody>
+</table>
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<table width="1000" align="center" bgcolor="#ecd9a6" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr bgcolor="#ffffff">
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(9)"><img width="150" height="150" src="/images/menu/coffee/01s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>아메리카노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(10)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330778_37.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>카페라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(11)"><img width="150" height="150" src="/images/menu/coffee/12s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>카라멜마끼아또</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(12)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330778_37.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>바닐라라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(13)"><img width="150" height="150" src="/images/menu/coffee/14s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>카페모카</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq9" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/01.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>아메리카노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">에스프레소에 물을 혼합한 커피 메가커피의 부드럽고 풍부한 바디감을 느낄 수 있는 메가커피 대표 음료</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">18.00 Kcal </div></td>
+                      <td><div align="center">0.9 g </div></td>
+                      <td><div align="center">0.0 g</div></td>
+                      <td><div align="center">0.3 mg </div></td>
+                      <td><div align="center">0.3 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq10" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330777_87.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>카페라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">진한 에스프레소와 부드러운 우유가 만나 고소한 풍미를 더하는 메뉴 가장 대중적인 메뉴</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">161.0 Kcal </div></td>
+                      <td><div align="center">6.4 g </div></td>
+                      <td><div align="center">9.9 g</div></td>
+                      <td><div align="center">0.4 mg </div></td>
+                      <td><div align="center">8.0 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq11" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/12.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>카라멜마끼아또</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">폼 밀크의 부드러움과 카라멜의 달콤함 그리고 에스프레소의 진한 맛이 돋보이는 메가커피 인기 메뉴</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">278.0 Kcal </div></td>
+                      <td><div align="center">5.8 g </div></td>
+                      <td><div align="center">41.6 g</div></td>
+                      <td><div align="center">0.4mg </div></td>
+                      <td><div align="center">7.1 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq12" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330777_87.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>바닐라라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain"> 진한 바닐라향과 부드러운 폼 밀크의 조화</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">270.9 Kcal </div></td>
+                      <td><div align="center">6.4 g </div></td>
+                      <td><div align="center">37.3 g</div></td>
+                      <td><div align="center">21.0 mg </div></td>
+                      <td><div align="center">8.0 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq13" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/14.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>카페모카</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">초코시럽을 만나 풍부해진 에스프레소와 부드러운 우유의 혼합 그리고 마지막으로 더해지는 달콤한 휘핑크림이 올라간 메뉴</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">223.1 Kcal </div></td>
+                      <td><div align="center">12.0 g </div></td>
+                      <td><div align="center">35.9 g</div></td>
+                      <td><div align="center">88.1 mg </div></td>
+                      <td><div align="center">7.3 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr bgcolor="#ffffff">
+      <td height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(14)"><img width="150" height="150" src="http://www.megacoffee.me/data/editor/1612/0d4dd76565ad0a2a85a2d09945700f31_1480915454_51.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>민트카페모카</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(15)"><img width="150" height="150" src="/images/menu/coffee/16s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>큐브라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(16)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/data/editor/1703/29cef4057268d9d088c961b808205dde_1489137267_07.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>카푸치노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(18)"><img width="150" height="150" src="/images/menu/coffee/18s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>티라미수라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(17)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330777_83.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>꿀아메리카노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq14" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.megacoffee.me/data/editor/1612/0d4dd76565ad0a2a85a2d09945700f31_1480915454_48.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>민트카페모카</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain"></td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">328.4 Kcal </div></td>
+                      <td><div align="center">12.0 g </div></td>
+                      <td><div align="center">61.3 g</div></td>
+                      <td><div align="center">89.2 mg </div></td>
+                      <td><div align="center">7.3 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq15" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/16.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>큐브라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">갓 추출한 에스프레소를 얼린 커피큐브와 달콤한 연유와 고소한 우유가 만나, 마실 수록 진한 커피의 맛을 느낄 수 있는 큐브라떼</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">339.2 Kcal </div></td>
+                      <td><div align="center">10.3 g </div></td>
+                      <td><div align="center">37.7 g</div></td>
+                      <td><div align="center">68.9 mg </div></td>
+                      <td><div align="center">12.1 g</div></td>
+                      <td class="text13explain"><div align="center">289.7 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq16" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/data/editor/1703/29cef4057268d9d088c961b808205dde_1489137266_93.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>카푸치노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain"></td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">144.8 Kcal </div></td>
+                      <td><div align="center">5.8 g </div></td>
+                      <td><div align="center">8.8 g</div></td>
+                      <td><div align="center">0.4 mg </div></td>
+                      <td><div align="center">7.1 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq17" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330777_78.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>꿀아메리카노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">메가커피의 진하고 마일드한 아메리카노와 진한 사양벌꿀의 만남</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">102.7Kcal </div></td>
+                      <td><div align="center">0.9 g </div></td>
+                      <td><div align="center">27.1 g</div></td>
+                      <td><div align="center">2.6 mg </div></td>
+                      <td><div align="center">0.4 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq18" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/18.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>티라미수라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">티라미수소스를 만나 한층 풍부해진 에스프레소에 우유로 부드러움을 더한 달콤한 크림이 곁들여진 메가커피 베스트 음료</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">451.5 Kcal </div></td>
+                      <td><div align="center">19.3 g </div></td>
+                      <td><div align="center">33.4 g</div></td>
+                      <td><div align="center">133.7 mg </div></td>
+                      <td><div align="center">7.9 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <!-- ★20161205 추가 -->
+    <tr bgcolor="#ffffff">
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(25)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330777_83.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+
+              <td><div align="center" class="text14brown"><span class="textice"></span>헤이즐넛아메리카노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(26)"><img width="150" height="150" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330777_83.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>바닐라아메리카노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(20)"><img width="150" height="150" src="/images/menu/coffee/47s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>헤이즐넛라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(23)"><img width="150" height="150" src="/images/menu/coffee/01s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>메가리카노</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><!--table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(19)"><img width="150" height="150" src="/images/menu/coffee/39s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>스윗 서머라떼</div></td>
+            </tr>
+          </tbody>
+        </table--></td>
+		
+    </tr>
+    <tr id="faq25" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330777_78.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>헤이즐넛아메리카노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">-</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">121.4Kcal </div></td>
+                      <td><div align="center">0.9 g </div></td>
+                      <td><div align="center">17.8 g</div></td>
+                      <td><div align="center">0.5 mg </div></td>
+                      <td><div align="center">0.4 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq26" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="http://www.mega-coffee.co.kr/data/editor/1707/b73ccb62e1e75387cf7b652ec5adfc07_1499330777_78.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>바닐라아메리카노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">-</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">127.9 Kcal </div></td>
+                      <td><div align="center">0.9 g </div></td>
+                      <td><div align="center">27.4 g</div></td>
+                      <td><div align="center">20.9 mg </div></td>
+                      <td><div align="center">0.3 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+	  
+    <tr id="faq19" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/39.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>스윗 서머라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">-</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td width="70"><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">351.2 Kcal </div></td>
+                      <td><div align="center">45.2 g</div></td>
+                      <td><div align="center">116.7 mg </div></td>
+                      <td><div align="center">10.6 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">탄수화물</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">지방</div></td>
+                      <td><div align="center">트랜스지방</div></td>
+                      <td><div align="center">콜레스테롤</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">47.5 g </div></td>
+                      <td><div align="center">9.3 g </div></td>
+                      <td><div align="center">10.7 g</div></td>
+                      <td><div align="center">0.2 mg </div></td>
+                      <td><div align="center">18.8 mg </div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+	  
+    <tr id="faq20" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/47.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>헤이즐넛라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">-</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">264.4 Kcal </div></td>
+                      <td><div align="center">6.4 g </div></td>
+                      <td><div align="center">27.7 g</div></td>
+                      <td><div align="center">0.6 mg </div></td>
+                      <td><div align="center">8.1 g</div></td>
+                      <td class="text13explain"><div align="center">193.1 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq23" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/01.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>메가리카노</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">-</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">27 Kcal </div></td>
+                      <td><div align="center">6.3 g </div></td>
+                      <td><div align="center">11.4 g</div></td>
+                      <td><div align="center">3.4 mg </div></td>
+                      <td><div align="center">8.9 g</div></td>
+                      <td class="text13explain"><div align="center">289.7 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <!-- 20160913 추가 -->
+  </tbody>
+</table>
+
+<table width="1000" height="100" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><div align="center" style="font: 40px/normal Verdana, Geneva, sans-serif; color: rgb(92, 61, 38); font-size-adjust: none; font-stretch: normal;">COLD BREW</div></td>
+    </tr>
+  </tbody>
+</table>
+<table width="1000" align="center" bgcolor="#ecd9a6" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr bgcolor="#ffffff">
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(30)"><img width="150" height="150" src="/images/menu/coffee/19s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>콜드브루오리지널</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(31)"><img width="150" height="150" src="/images/menu/coffee/24s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>콜드브루오리지널</div></td>
+
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(32)"><img width="150" height="150" src="/images/menu/coffee/20s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>콜드브루라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(33)"><img width="150" height="150" src="/images/menu/coffee/25s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>콜드브루라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(36)"><img width="150" height="150" src="/images/menu/coffee/40s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>콜드브루디카페인</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq30" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/19.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>콜드브루오리지널</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">저온방식으로 장시간에 걸쳐 우려내여 추출한 커피</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">5.1 Kcal </div></td>
+                      <td><div align="center">0.0 g </div></td>
+                      <td><div align="center">0.0 g</div></td>
+                      <td><div align="center">0.4 mg </div></td>
+                      <td><div align="center">0.0 g</div></td>
+                      <td class="text13explain"><div align="center">152.0 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq31" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/24.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>콜드브루오리지널</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">저온방식으로 장시간에 걸쳐 우려내여 추출한 커피</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">6.8 Kcal </div></td>
+                      <td><div align="center">0.0 g </div></td>
+                      <td><div align="center">0.0 g</div></td>
+                      <td><div align="center">3.3 mg </div></td>
+                      <td><div align="center">0.0 g</div></td>
+                      <td class="text13explain"><div align="center">202.6 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+
+    <tr id="faq32" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/20.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>콜드브루라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">저온방식으로 내린 커피와 부드러운 우유가 만나 고소한 풍미를 더하는 메뉴</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">162.4 Kcal </div></td>
+                      <td><div align="center">6.1 g </div></td>
+                      <td><div align="center">10.9 g</div></td>
+                      <td><div align="center">2.6 mg </div></td>
+                      <td><div align="center">8.5 g</div></td>
+                      <td class="text13explain"><div align="center">152.0 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq33" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/25.png"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>콜드브루라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">저온방식으로 내린 커피와 부드러운 우유가 만나 고소한 풍미를 더하는 메뉴</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">171.3 Kcal </div></td>
+                      <td><div align="center">6.3 g </div></td>
+                      <td><div align="center">11.4 g</div></td>
+                      <td><div align="center">3.4 mg </div></td>
+                      <td><div align="center">8.9 g</div></td>
+                      <td class="text13explain"><div align="center">202.6 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq36" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/40.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>콜드브루디카페인</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">원두 본연의 맛과 향미를 풍부하게 살린 콜드브루 디카페인</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">9.8 Kcal </div></td>
+                      <td><div align="center">0.0 g </div></td>
+                      <td><div align="center">0.0 g</div></td>
+                      <td><div align="center">0.9 mg </div></td>
+                      <td><div align="center">0.5 g</div></td>
+                      <td class="text13explain"><div align="center">6.6 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr bgcolor="#ffffff">
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(37)"><img width="150" height="150" src="/images/menu/coffee/41s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>콜드브루디카페인</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(38)"><img width="150" height="150" src="/images/menu/coffee/42s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>콜드브루디카페인라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(39)"><img width="150" height="150" src="/images/menu/coffee/43s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>콜드브루디카페인라떼</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(34)"><img width="150" height="150" src="/images/menu/coffee/51s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>토피넛마끼아또</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(35)"><img width="150" height="150" src="/images/menu/coffee/50s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>토피넛마끼아또</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq34" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/51.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>토피넛마끼아또</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">달콤한 토피넛과 깔끔한 커피맛의 대표 콜드브루, 메가커피만의 베이스와 고소한 우유가 어우러진 부드러운 마끼아또</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">332.9 Kcal </div></td>
+                      <td><div align="center">4.9 g </div></td>
+                      <td><div align="center">9.3 g</div></td>
+                      <td><div align="center">20.2 mg </div></td>
+                      <td><div align="center">6.4 g</div></td>
+                      <td class="text13explain"><div align="center">44.4 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq35" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/50.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>토피넛마끼아또</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">달콤한 토피넛과 깔끔한 커피맛의 대표 콜드브루, 메가커피만의 베이스와 고소한 우유가 어우러진 부드러운 마끼아또</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">413.6 Kcal </div></td>
+                      <td><div align="center">6.7 g </div></td>
+                      <td><div align="center">12.4 g</div></td>
+                      <td><div align="center">16.8 mg </div></td>
+                      <td><div align="center">9 g</div></td>
+                      <td class="text13explain"><div align="center">88.5 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq37" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/41.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>콜드브루디카페인</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">원두 본연의 맛과 향미를 풍부하게 살린 콜드브루 디카페인</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">13.1 Kcal </div></td>
+                      <td><div align="center">0.0 g </div></td>
+                      <td><div align="center">0.0 g</div></td>
+                      <td><div align="center">1.3 mg </div></td>
+                      <td><div align="center">0.6 g</div></td>
+                      <td class="text13explain"><div align="center">8.9 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq38" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/42.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>콜드브루디카페인라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">부드러운 우유가 만나 고소한 풍미를 더하는 콜드브루 디카페인 라떼</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">167.1 Kcal </div></td>
+                      <td><div align="center">6.1 g </div></td>
+                      <td><div align="center">10.9 g</div></td>
+                      <td><div align="center">1.0 mg </div></td>
+                      <td><div align="center">8.9 g</div></td>
+                      <td class="text13explain"><div align="center">6.6 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq39" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/43.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>콜드브루디카페인라떼</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">부드러운 우유가 만나 고소한 풍미를 더하는 콜드브루 디카페인 라떼</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">177.5 Kcal </div></td>
+                      <td><div align="center">6.3 g </div></td>
+                      <td><div align="center">11.4 g</div></td>
+                      <td><div align="center">1.4 mg </div></td>
+                      <td><div align="center">9.5 g</div></td>
+                      <td class="text13explain"><div align="center">8.9 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    
+    <!--tr bgcolor="#ffffff">
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(40)"><img width="150" height="150" src="/images/menu/coffee/44s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="textice"></span>콜드브루디카페인아인슈페너</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(41)"><img width="150" height="150" src="/images/menu/coffee/45s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown"><span class="texthot"></span>콜드브루디카페인아인슈페너</div></td>
+            </tr>
+          </tbody>
+        </table-->
+      <tr><td width="198"><!--table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(42)"><img width="150" height="150" src="/images/menu/coffee/41s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown">콜드브루(디카페인) HOT</div></td>
+            </tr>
+          </tbody>
+        </table--></td>
+      <td width="198"><!--table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(43)"><img width="150" height="150" src="/images/menu/coffee/42s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown">콜드브루 라떼(디카페인)</div></td>
+            </tr>
+          </tbody>
+        </table--></td>
+      <td width="198"><!--table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(44)"><img width="150" height="150" src="/images/menu/coffee/43s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown">콜드브루 라떼(디카페인) HOT</div></td>
+            </tr>
+          </tbody>
+        </table--></td>
+    </tr>
+    <tr id="faq40" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/44.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="textice"></span>콜드브루디카페인아인슈페너</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">부드러운 폼 밀크와의 조화가 더해진 콜드브루 디카페인 아인슈페너</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">357.3 Kcal </div></td>
+                      <td><div align="center">22 g </div></td>
+                      <td><div align="center">12.1 g</div></td>
+                      <td><div align="center">69.3 mg </div></td>
+                      <td><div align="center">1.7 g</div></td>
+                      <td class="text13explain"><div align="center">6.6 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq41" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/45.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong><span class="texthot"></span>콜드브루디카페인아인슈페너</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">부드러운 폼 밀크와의 조화가 더해진 콜드브루 디카페인 아인슈페너</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1회 제공분 기준)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">371.4 Kcal </div></td>
+                      <td><div align="center">22 g </div></td>
+                      <td><div align="center">15.6 g</div></td>
+                      <td><div align="center">69.3 mg </div></td>
+                      <td><div align="center">1.7 g</div></td>
+                      <td class="text13explain"><div align="center">6.6 mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    
+  </tbody>
+</table>
+<!-------------------------------------------------------------------------------------------------------------------------------------->
+<table width="1000" height="30" align="center" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td><div align="center"></div></td>
+    </tr>
+  </tbody>
+</table>
+<!-------------------------------------------------------------------------------------------------------------------------------------->
+<table width="1000" align="center" bgcolor="#ecd9a6" border="0" cellspacing="1" cellpadding="0">
+  <tbody>
+    <tr bgcolor="#ffffff">
+      <td width="198" height="200"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(45)"><img width="150" height="150" src="/images/menu/coffee/48s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown">콜드브루오리지널 원액</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(46)"><img width="150" height="150" src="/images/menu/coffee/49s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown">콜드브루디카페인 원액</div></td>
+            </tr>
+          </tbody>
+        </table></td>
+      <td width="198"><!--table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(47)"><img width="150" height="150" src="/images/menu/coffee/20s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown">콜드브루 라떼</div></td>
+            </tr>
+          </tbody>
+        </table--></td>
+      <td width="198"><!--table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(48)"><img width="150" height="150" src="/images/menu/coffee/25s.png" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown">콜드브루 라떼 HOT</div></td>
+            </tr>
+          </tbody>
+        </table--></td>
+      <td width="198"><!--table width="150" align="center" bgcolor="#ffffff" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td><a href="javascript:showFaq(49)"><img width="150" height="150" src="/images/menu/coffee/22s.jpg" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><div align="center" class="text14brown">콜드브루 아인슈페너</div></td>
+            </tr>
+          </tbody>
+        </table--></td>
+    </tr>
+    <tr id="faq45" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/48.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong>콜드브루오리지널 원액</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">저온방식으로 장시간에 걸쳐 우려내여 추출한 커피</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1000ml)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">- Kcal </div></td>
+                      <td><div align="center">- g </div></td>
+                      <td><div align="center">- g</div></td>
+                      <td><div align="center">- mg </div></td>
+                      <td><div align="center">- g</div></td>
+                      <td class="text13explain"><div align="center">- mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+    <tr id="faq46" style="display: none;" bgcolor="#ffffff">
+      <td height="200" colspan="5"><table width="800" align="center" border="0" cellspacing="0" cellpadding="0">
+          <tbody>
+            <tr>
+              <td width="400"><img width="400" height="400" src="/images/menu/coffee/49.jpg"></td>
+              <td><table width="400" border="0" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="text20brown"><strong>콜드브루디카페인 원액</strong></td>
+                    </tr>
+                    <tr>
+                      <td class="text13explain">원두 본연의 맛과 향미를 풍부하게 살린 콜드브루 디카페인</td>
+                    </tr>
+                    <tr>
+                      <td height="40" class="text13brown">제품영양정보 (1000ml)</td>
+                    </tr>
+                    <tr> </tr>
+                  </tbody>
+                </table>
+                <table width="400" bgcolor="#dddddd" border="0" cellspacing="1" cellpadding="4">
+                  <tbody>
+                    <tr class="text13explain" bgcolor="#f1f1f1">
+                      <td><div align="center">칼로리</div></td>
+                      <td><div align="center">포화지방</div></td>
+                      <td width="50"><div align="center">당류</div></td>
+                      <td><div align="center">나트륨</div></td>
+                      <td><div align="center">단백질</div></td>
+                      <td><div align="center">카페인</div></td>
+                    </tr>
+                    <tr class="text13explain" bgcolor="#ffffff">
+                      <td><div align="center">- Kcal </div></td>
+                      <td><div align="center">- g </div></td>
+                      <td><div align="center">- g</div></td>
+                      <td><div align="center">- mg </div></td>
+                      <td><div align="center">- g</div></td>
+                      <td class="text13explain"><div align="center">- mg</div></td>
+                    </tr>
+                  </tbody>
+                </table></td>
+            </tr>
+          </tbody>
+        </table></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<div style="height: 80px; clear: both;"></div>
+<table width="100%" height="1" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td bgcolor="#eae4df"></td>
+    </tr>
+  </tbody>
+</table>
+<table width="100%" height="60" border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td bgcolor="#ffd437"><div align="center"></div></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#363636">
+  <tr>
+    <td><div align="center"><img src="/images/main/bottom.gif" width="1000" /></div></td>
+  </tr>
+</table>
+
+
+<!-- } 하단 끝 -->
+
+<script>
+$(function() {
+    // 폰트 리사이즈 쿠키있으면 실행
+    font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+});
+</script>
+
+
+
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+</body>
+</html>

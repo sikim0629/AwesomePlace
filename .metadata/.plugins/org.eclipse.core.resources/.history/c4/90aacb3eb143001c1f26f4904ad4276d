@@ -1,0 +1,25 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import javax.naming.NamingException;
+
+import com.mysql.jdbc.PreparedStatement;
+
+public class BoardDAO {
+
+	public void insert(String title, String description, String filename) throws NamingException, SQLException{
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		String member = "admin";
+		
+		try {
+			String sql = "INSERT INTO borad(btitle,bcontent,bmember,bfilename,bdate) VALUES(?,?,?,?,?)";
+			
+			conn = ConnectionPool.get();
+		} finally {
+		}
+	}
+	
+}

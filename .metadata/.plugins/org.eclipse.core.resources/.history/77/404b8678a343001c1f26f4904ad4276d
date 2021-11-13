@@ -1,0 +1,46 @@
+
+--COFFEE 
+CREATE TABLE coffee(
+cname VARCHAR(50),
+ckcal VARCHAR(20),
+ccaffeine VARCHAR(20),
+csugars VARCHAR(20)
+)DEFAULT CHARSET=UTF8;
+
+--TEA 
+CREATE TABLE tea(
+tname VARCHAR(50),
+tkcal VARCHAR(20),
+tcaffeine VARCHAR(20),
+tsugars VARCHAR(20)
+)DEFAULT CHARSET=UTF8;
+
+--JUICE 
+CREATE TABLE juice(
+jname VARCHAR(50),
+jkcal VARCHAR(20),
+jcaffeine VARCHAR(20),
+jsugars VARCHAR(20)
+)DEFAULT CHARSET=UTF8;
+
+--MEMBER
+CREATE TABLE member(
+id VARCHAR(32) PRIMARY KEY,
+password VARCHAR(32),
+name VARCHAR(32),
+gender VARCHAR(32),
+birth VARCHAR(32),
+mail VARCHAR(32),
+phone VARCHAR(32),
+address VARCHAR(32),
+regidate VARCHAR(32)
+) DEFAULT CHARSET=utf8;
+
+--NOTICE_BOARD
+CREATE TABLE board(
+bid int(10) PRIMARY KEY AUTO_INCREMENT,
+btitle VARCHAR(1024),
+bcontent VARCHAR(2048),
+bmember VARCHAR(32),
+bdate VARCHAR(32)
+) DEFAULT CHARSET=utf8;
