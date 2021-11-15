@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     
-<link rel="stylesheet" href="/css/font.css">
+<link rel="stylesheet" href="/resource/css/font.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -38,7 +38,7 @@
             	게시판
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">공지사항</a></li>
+            <li><a class="dropdown-item" href="/board/listBoard.jsp">공지사항</a></li>
             <li><a class="dropdown-item" href="#">이달의 메뉴</a></li>
             <li><a class="dropdown-item" href="#">이벤트</a></li>
           </ul>
