@@ -49,8 +49,8 @@
             	회원가입
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">로그인</a></li>
-            <li><a class="dropdown-item" href="#">로그아웃</a></li>
+            <li><a class="dropdown-item" href="/member/Login.jsp">로그인</a></li>
+            <li><a class="dropdown-item" href="/member/Join.jsp">로그아웃</a></li>
             <li><a class="dropdown-item" href="#">회원탈퇴</a></li>
           </ul>
         </li>

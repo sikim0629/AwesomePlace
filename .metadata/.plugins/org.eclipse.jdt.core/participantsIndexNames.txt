@@ -1,6 +1,12 @@
 INDEX VERSION 1.131
 E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3125616133.index
 \awesomePlace\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2043594533.index
+\awesomePlace\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2082034013.index
+\boardTest\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\939726948.index
+\awesomePlace\src
 E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3690889792.index
 \WebShop2\src
 E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\24607020.index

@@ -12,7 +12,7 @@
 <%
 	request.setCharacterEncoding("utf-8");
 
-	String title = null, description = null, filename = null;
+	String title = null, description = null, filename = null, member = null;
 	byte[] ufile = null;
 	
 	ServletFileUpload sfu = new ServletFileUpload(new DiskFileItemFactory());
@@ -44,7 +44,7 @@
 	
 	BoardDAO dao = new BoardDAO();
 	
-	if (dao.insert(title, description, filename)) {
+	if (dao.insert(title, description, member, filename)) {
 		response.sendRedirect("listBoard.jsp");
 	} else {
 		response.sendRedirect("listBoard.jsp");

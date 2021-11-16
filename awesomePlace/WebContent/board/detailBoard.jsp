@@ -6,14 +6,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>공지사항</title>
 </head>
 <body>
 <%@ include file = "/header.jsp" %>
 <div class="alert alert-secondary" role="alert">
-			<h1 class="display-3">상세보기</h1>
+			<h1>공지사항</h1>
 </div>
 <%
+	request.setCharacterEncoding("utf-8");
+
 	String a = request.getParameter("id");
 
 	BoardObj board = (new BoardDAO()).getDetail(a);
@@ -41,8 +43,8 @@
 			</div>
 			<div class="form-group  row">
 				<div class="col-sm-offset-2 col-sm-10 ">
-					<input type="submit" class="btn btn-primary " value="수정 하기" > 
-					<input type="reset" class="btn btn-primary " value="목록 보기"  >
+					<a href="/board/listBoard.jsp"><button type="submit" class="btn btn-secondary">수정 하기</button></a>
+					<a class="btn btn-secondary" href="/board/listBoard.jsp" role="button">목록 보기</a>
 				</div>
 			</div>
 		</form>

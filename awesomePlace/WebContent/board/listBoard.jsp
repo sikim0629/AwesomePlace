@@ -7,34 +7,36 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>공지사항</title>
 </head>
 <body>
 	<%@ include file="/header.jsp"%>
 	<div class="alert alert-secondary" role="alert">
-		<h1 class="display-3">게시판</h1>
+		<h1>공지사항</h1>
 	</div>
-	<div class="bd-example">
-		<table class="table table-hover">
-			<thead>
-				<tr>
-					<th scope="col">번호</th>
-					<th scope="col">제목</th>
-					<th scope="col">작성자</th>
-					<th scope="col">등록일</th>
-				</tr>
-			</thead>
-			<tbody>
+	<div class="container">
+		<div class="row">
+			<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
+				<thread>
+					<tr>
+						<th style="background-color: #eeeee; text-align: center;">번호</th>
+						<th style="background-color: #eeeee; text-align: center;">제목</th>
+						<th style="background-color: #eeeee; text-align: center;">작성자</th>
+						<th style="background-color: #eeeee; text-align: center;">작성일</th>
+					</tr>
+					<tbody>
 
 				<%
+					request.setCharacterEncoding("utf-8");
+				
 					ArrayList<BoardObj> boards = (new BoardDAO()).getList();
 
-				for (BoardObj board : boards) {
-					int i = boards.size();
+					int i = 1;
+					for (BoardObj board : boards) {
 				%>
 
 				<tr>
-					<th scope="row"><%=i%></th>
+					<th scope="row"><%=i++%></th>
 					<td><a href="detailBoard.jsp?id=<%=board.getId()%>"><%=board.getTitle()%></a></td>
 					<td><%=board.getMember()%></td>
 					<td><%=board.getDate()%></td>
@@ -46,12 +48,15 @@
 				%>
 
 			</tbody>
-		</table>
-		<button type="button" class="btn btn-outline-secondary btn-sm">
-			<a href="/board/addBoard.jsp">글쓰기</a>
-		</button>
+				</thread>
+			</table>
+			<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+			 	<a href="/board/addBoard.jsp">
+			 		<button class="btn btn-secondary me-md-2" type="button">글쓰기</button>
+		 		</a>
+			</div>
+		</div>	
 	</div>
 	<%@ include file="/footer.jsp"%>
-
 </body>
 </html>

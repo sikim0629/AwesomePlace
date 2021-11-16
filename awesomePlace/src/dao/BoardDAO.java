@@ -10,12 +10,11 @@ import util.ConnectionPool;
 
 public class BoardDAO {
 
-	public boolean insert(String title, String description, String filename)
+	public boolean insert(String title, String description, String member, String filename)
 	throws NamingException, SQLException {
 		
 		Connection conn = null;
 		PreparedStatement stmt = null;
-		String member = "Austin";
 		
 		try {
 			conn = ConnectionPool.get();
@@ -101,13 +100,6 @@ public class BoardDAO {
 			if(stmt != null) stmt.close();
 			if(conn != null) conn.close();
 		}
-		
-		
-		
-		
 	}
-	
-	
-	
 	
 }
