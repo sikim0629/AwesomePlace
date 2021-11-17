@@ -1,5 +1,5 @@
 # Projects
  
- IDE : Eclipse
- sql : MySQL
+ IDE : Eclipse \n
+ sql : MySQL \n
  Language : JSP
