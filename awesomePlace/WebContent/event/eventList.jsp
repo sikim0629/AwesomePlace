@@ -24,12 +24,11 @@
 					<td>이벤트 목록</td>
 				</tr>
 				<tbody>
-
 					<%
 						request.setCharacterEncoding("utf-8");
 
 						ArrayList<EventObj> events = new EventDAO().getList();
-						
+	
 						int admin = 0;
 						if (request.getParameter("id") != null) {
 							admin = Integer.parseInt(request.getParameter("id"));
@@ -39,8 +38,8 @@
 						<th>
 							<div class="row row-cols-1 row-cols-md-3 g-4">
 								<%
-								for (EventObj event : events) {
-							%>
+									for (EventObj event : events) {
+								%>
 								<div class="col">
 									<div class="card h-100">
 										<%
@@ -70,7 +69,7 @@
 				</thread>
 			</table>
 			<%
-				if (userID != null  && userID.equals("admin")){
+				if (userID != null && userID.equals("admin")) {
 			%>
 			<div class="d-grid gap-2 d-md-flex justify-content-md-end">
 				<a href="/event/eventAdd.jsp">

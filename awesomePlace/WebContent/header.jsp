@@ -1,9 +1,11 @@
+<%@page import="java.util.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="dao.*" %>    
 
 <link rel="stylesheet" href="/resource/css/font.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 <%
 	String userID = null;
 	if (session.getAttribute("id") != null) {
@@ -50,11 +52,11 @@
           </ul>
         </li>
 		 </ul>
+			<ul class="nav justify-content-end">
+			  <li class="nav-item dropdown">
 		<%
 			if (userID == null) {
 		%>
-			<ul class="nav justify-content-end">
-			  <li class="nav-item dropdown">
 		          <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 		            	회원관리
 		          </a>
@@ -62,13 +64,9 @@
 		            <li><a class="dropdown-item" href="/member/Login.jsp">로그인</a></li>
 		            <li><a class="dropdown-item" href="/member/Join.jsp">회원가입</a></li>
 		          </ul>
-		        </li>
-	        </ul>
 		<%
 			} else {
 		%>
-			<ul class="nav justify-content-end">
-				<li class="nav-item dropdown">
 		          <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 		            	<%=userID %>님, 환영합니다!
 		          </a>
@@ -76,11 +74,11 @@
 		            <li><a class="dropdown-item" href="/member/Logout.jsp">로그아웃</a></li>
 		            <li><a class="dropdown-item" href="/member/DeleteMember.jsp">회원탈퇴</a></li>
 		          </ul>
-		        </li>
-	        </ul>
 		<%
 			}
 		%>
+		        </li>
+	        </ul>
      
     </div>
   </div>
