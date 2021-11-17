@@ -73,7 +73,6 @@
 		          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 		            <li><a class="dropdown-item" href="/member/Logout.jsp">로그아웃</a></li>
 		            <li><a class="dropdown-item" href="/member/ListMember.jsp">회원관리</a></li>
-		            <li><a class="dropdown-item" href="/member/DeleteMember.jsp">회원삭제</a></li>
 		          </ul>
 		<%
 			} else {
