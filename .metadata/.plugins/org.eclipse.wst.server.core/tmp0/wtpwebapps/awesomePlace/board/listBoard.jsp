@@ -25,7 +25,6 @@
 						<th style="background-color: #eeeee; text-align: center;">작성일</th>
 					</tr>
 					<tbody>
-
 				<%
 					request.setCharacterEncoding("utf-8");
 				
@@ -34,27 +33,38 @@
 					int i = 1;
 					for (BoardObj board : boards) {
 				%>
-
 				<tr>
 					<th scope="row"><%=i++%></th>
 					<td><a href="detailBoard.jsp?id=<%=board.getId()%>"><%=board.getTitle()%></a></td>
 					<td><%=board.getMember()%></td>
 					<td><%=board.getDate()%></td>
 				</tr>
-
-
 				<%
 					}
 				%>
-
 			</tbody>
 				</thread>
 			</table>
+			
+			<%
+				if (userID != null) {
+			%>
 			<div class="d-grid gap-2 d-md-flex justify-content-md-end">
 			 	<a href="/board/addBoard.jsp">
 			 		<button class="btn btn-secondary me-md-2" type="button">글쓰기</button>
 		 		</a>
 			</div>
+			<%
+				} else {
+			%>
+				<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+			 	<a href="/member/Login.jsp">
+			 		<button class="btn btn-secondary me-md-2" type="button">로그인 후 이용해주세요</button>
+		 		</a>
+			</div>
+			<%
+				}
+			%>
 		</div>	
 	</div>
 	<%@ include file="/footer.jsp"%>

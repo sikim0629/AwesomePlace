@@ -22,32 +22,52 @@
 
 %>
 	<div class="container">
-		<form name="newProduct" class="form-horizontal"  action="addCheck.jsp" method="post" enctype="multipart/form-data">
-			<div class="form-group  row">
-				<label class="col-sm-2 ">글제목</label>
-				<div class="col-sm-4">
-					<input name="title" type="text" class="form-control" value="<%=board.getTitle() %>" >
-				</div>
+	<div class="row">
+		<table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
+			<thead>
+				<tr>
+					<th colspan="2" style="background-color: #eeeeee; text-align: center;">게시판 글 보기</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td style="width: 20%;">글 제목</td>
+					<td colspan="2"><%= board.getTitle()%></td>
+				</tr>
+				<tr>
+					<td>작성자</td>
+					<td colspan="2"><%= board.getMember() %></td>
+				</tr>
+				<tr>
+					<td>작성일자</td>
+					<td colspan="2"><%= board.getDate()%></td>
+				</tr>
+				<%
+					if (board.getFilename() != null) {
+				%>
+				<tr>
+					<td colspan="2" style="height: 200px; text-align: center;">
+						<img src="/images/<%=board.getFilename()%>" style="width: 65%"/>
+					</td>
+				</tr>
+				<%
+					} else {
+				%>
+				<%
+					}
+				%>
+				<tr>
+					<td>내용</td>
+					<td colspan="2" style="height: 200px; text-align: left;"><%= board.getDescription()%></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+			  <a href="/board/listBoard.jsp" class="btn btn-secondary">목록</a>
 			</div>
-			<div class="form-group  row">
-				<label class="col-sm-2">사진</label>
-				<div class="col-sm-4">
-				<img src="/images/<%=board.getFilename()%>" style="width: 100%" />
-				</div>
-			</div>
-					<div class="form-group  row">
-				<label class="col-sm-2">글내용</label>
-				<div class="col-sm-4">
-					<textarea name="description" rows="5" cols="20" class="form-control" ><%=board.getDescription() %></textarea>
-				</div>
-			</div>
-			<div class="form-group  row">
-				<div class="col-sm-offset-2 col-sm-10 ">
-					<a href="/board/listBoard.jsp"><button type="submit" class="btn btn-secondary">수정 하기</button></a>
-					<a class="btn btn-secondary" href="/board/listBoard.jsp" role="button">목록 보기</a>
-				</div>
-			</div>
-		</form>
+			
+		</div>
+	</div>
 
 <%@ include file = "/footer.jsp" %>
 

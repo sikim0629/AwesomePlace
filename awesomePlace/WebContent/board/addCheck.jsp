@@ -6,13 +6,16 @@
 <%@page import="org.apache.commons.fileupload.disk.DiskFileItemFactory"%>
 <%@page import="org.apache.commons.fileupload.servlet.ServletFileUpload"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 
-    
 <%
+	String userID = null;
+	if (session.getAttribute("id") != null) {
+		userID = (String) session.getAttribute("id");
+	}
 	request.setCharacterEncoding("utf-8");
 
-	String title = null, description = null, filename = null, member = null;
+	String title = null, description = null, filename = null;
 	byte[] ufile = null;
 	
 	ServletFileUpload sfu = new ServletFileUpload(new DiskFileItemFactory());
@@ -20,37 +23,41 @@
 	
 	Iterator iter = items.iterator();
 	
-	while(iter.hasNext()) {
+	while (iter.hasNext()) {
 		FileItem item = (FileItem) iter.next();
 		String name = item.getFieldName();
-		if(item.isFormField()) {
+		if (item.isFormField()) {
 			String value = item.getString("utf-8");
-			if (name.equals("title")) title = value;
-			else if (name.equals("description")) description = value;
-		} else {
-			if(name.equals("filename")) {
-				filename = item.getName();
-				ufile = item.get();
-				
-				//사진을 파일로 특정 위치에 저장
-/* 				File file = new File("/photos/" + filename);
-				item.write(file); */
-				
-				String root = application.getRealPath(java.io.File.separator);
-				FileUtil.saveImage(root, filename, ufile);
+			if (name.equals("title"))
+		title = value;
+			else if (name.equals("description"))
+		description = value;
+		}
+		else {
+			if (item.getName() == "") {
+		break;
+			} else if (name.equals("filename")) {
+		filename = item.getName();
+		ufile = item.get();
+	
+		//사진을 파일로 특정 위치에 저장
+		/* 				File file = new File("/photos/" + filename);
+						item.write(file); */
+	
+		String root = application.getRealPath(java.io.File.separator);
+		FileUtil.saveImage(root, filename, ufile);
 			}
 		}
 	}
 	
 	BoardDAO dao = new BoardDAO();
 	
-	if (dao.insert(title, description, member, filename)) {
+	if (dao.insert(title, description, userID, filename)) {
 		response.sendRedirect("listBoard.jsp");
 	} else {
 		response.sendRedirect("listBoard.jsp");
 	}
-%>  
-    
-    
-    
-    
+	%>
+
+
+

@@ -25,10 +25,10 @@
 					</thread>
 					<tbody>
 						<tr>
-							<td><input type="text" class="form-control" placeholder="제목을 입력하세요" name="title" maxlength="50"></td>
+							<td><input type="text" class="form-control" placeholder="제목을 입력하세요" name="title" maxlength="50" required></td>
 						</tr>
 						<tr>
-							<td><textarea  class="form-control" placeholder="내용을 입력하세요" name="description" maxlength="2048" style="height: 350px"></textarea></td>
+							<td><textarea  class="form-control" placeholder="내용을 입력하세요" name="description" maxlength="2048" style="height: 350px" required></textarea></td>
 						</tr>
 						<tr>
 							<td><input class="form-control" name="filename" type="file" ></td>

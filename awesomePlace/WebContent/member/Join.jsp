@@ -67,8 +67,8 @@ body {
 								class="form-control" name="name" placeholder="이름" required>
 							<div class="invalid-feedback">이름을 입력해주세요.</div>
            					 <div class="col-sm-10" id="gender"><!-- 이름 옆에 넣고싶음 -->
-				               <input name="gender" type="radio" value="남" /> 남 
-				               <input name="gender" type="radio" value="여" /> 여
+				               <input id="gender" name="gender" type="radio" value="남" /> 남 
+				               <input id="gender" name="gender" type="radio" value="여" /> 여
 				            </div>
 						</div>
 						<div class="form-group row">

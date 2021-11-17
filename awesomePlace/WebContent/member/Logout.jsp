@@ -8,11 +8,18 @@
 </head>
 <body>
 <%
+
 Cookie user = new Cookie("id", "");
 user.setMaxAge(0);
 response.addCookie(user);//세션의 모든 속성 제거
-response.sendRedirect("Login.jsp");
+response.sendRedirect("/main.jsp");
+
+session.invalidate();
 %>
+<script>
+	location.href="/main.jsp"
+</script>
+
 <!-- 로그아웃 처리 완료 -->
 
 </body>

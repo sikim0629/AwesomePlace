@@ -1,9 +1,12 @@
+<%@page import="java.io.PrintWriter"%>
 <%@page import="dao.MemberDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
 	request.setCharacterEncoding("UTF-8");
-	
+
+	PrintWriter writer = response.getWriter();
+	String userId = null;
 	String id = request.getParameter("id");
 	String pw = request.getParameter("pw");
 	String name = request.getParameter("name");
@@ -27,4 +30,13 @@
 		response.sendRedirect("Join.jsp");
 	}
 	
+	if (session.getAttribute("id") != null) {
+		userId = (String) session.getAttribute("id");
+	}
+	if (userId != null) {
+		writer.println("<script>");
+		writer.println("alert('이미 로그인이 되어 있습니다.')");
+		writer.println("location.href = 'main.jsp");
+		writer.println("</script>");
+	}
 %>

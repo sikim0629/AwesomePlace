@@ -7,6 +7,8 @@ E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\20
 \boardTest\src
 E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\939726948.index
 \awesomePlace\src
+E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\430495715.index
+\awesomePlace\src
 E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3690889792.index
 \WebShop2\src
 E:\Project_01\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\24607020.index

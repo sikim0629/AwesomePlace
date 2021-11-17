@@ -33,3 +33,14 @@ bmember VARCHAR(32),
 bfilename VARCHAR(1024),
 bdate VARCHAR(32)
 ) DEFAULT CHARSET=utf8;
+
+-- 이벤트 보드
+
+CREATE TABLE event(
+eid int(10) PRIMARY KEY AUTO_INCREMENT,
+etitle VARCHAR(1024),
+esubtitle VARCHAR(1024),
+econtent VARCHAR(2048),
+efilename VARCHAR(1024),
+edate VARCHAR(32)
+) DEFAULT CHARSET=utf8;
