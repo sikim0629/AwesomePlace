@@ -11,7 +11,7 @@
 <body>
 <%@ include file = "/header.jsp" %>
 <%
-	ArrayList<MemberObj> members = (new MemberDAO()).getList();
+	ArrayList<MemberObj> members = (new MemberDAO()).getMyList(userID);
 %>
 <table class="table table-hover">
   <thead>

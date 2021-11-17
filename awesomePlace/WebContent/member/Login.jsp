@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>로그인</title>
     <style>
 .bd-placeholder-img {
   font-size: 1.125rem;

@@ -65,6 +65,17 @@
 		            <li><a class="dropdown-item" href="/member/Join.jsp">회원가입</a></li>
 		          </ul>
 		<%
+			} else if (userID != null && userID.equals("admin")) {
+		%>
+				  <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            	<%=userID %>님, 환영합니다!
+		          </a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+		            <li><a class="dropdown-item" href="/member/Logout.jsp">로그아웃</a></li>
+		            <li><a class="dropdown-item" href="/member/ListMember.jsp">회원관리</a></li>
+		            <li><a class="dropdown-item" href="/member/DeleteMember.jsp">회원삭제</a></li>
+		          </ul>
+		<%
 			} else {
 		%>
 		          <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -72,7 +83,7 @@
 		          </a>
 		          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 		            <li><a class="dropdown-item" href="/member/Logout.jsp">로그아웃</a></li>
-		            <li><a class="dropdown-item" href="/member/DeleteMember.jsp">회원탈퇴</a></li>
+		            <li><a class="dropdown-item" href="/member/myListMember.jsp">회원탈퇴</a></li>
 		          </ul>
 		<%
 			}
