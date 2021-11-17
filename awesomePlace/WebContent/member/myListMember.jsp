@@ -28,7 +28,7 @@
 			for (MemberObj member:members){
 	%>
     <tr>
-      <th scope="row"><a href = "DeleteMember.jsp?id=<%=member.getCid() %>" class = "btn btn-secondary" role = "button">삭제 &raquo;</a></th>
+      <th scope="row"><a href = "myDeleteMember.jsp?id=<%=member.getCid() %>" class = "btn btn-secondary" role = "button">삭제 &raquo;</a></th>
       <td><%=member.getCid() %></td>
       <td><%=member.getCname() %></td>
       <td><%=member.getCemail() %></td>
