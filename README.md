@@ -1,7 +1,10 @@
-# KoreaIT : 1st Projects (3조)
+# KoreaIT : Projects
  
  IDE : Eclipse
  
- sql : MySQL / awesomeplace
+ sql : MySQL
  
  Language : JSP
+ 
+ 
+ ◎ awesomeplace : JSP 1st Project ( 3조 )
