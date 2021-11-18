@@ -4,22 +4,19 @@
     pageEncoding="UTF-8"%>
 <%
 
-	PrintWriter writer = response.getWriter();
 	String userId = null;
 	
 	if (session.getAttribute("id") != null) {
 		userId = (String) session.getAttribute("id");
 	}
+	
+	PrintWriter writer = response.getWriter();
 	String cid = request.getParameter("id");
 	String cpass = request.getParameter("pass");
 	MemberDAO dao = new MemberDAO();
 	int code = dao.login(cid, cpass);
 	
 	if(code == 1){
-		writer.println("<script type='text/javascript'>");
-		writer.println("alert('아이디가 존재하지 않습니다');");
-		writer.println("location.href='main.jsp'");
-		writer.println("</script>");
 		response.sendRedirect("/member/Join.jsp");
 		
 	}else if(code == 2){

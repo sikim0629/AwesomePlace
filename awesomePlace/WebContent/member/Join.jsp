@@ -46,17 +46,17 @@ body {
 					
 						<div class="col-md-6 mb-3">
 							<label for="id">아이디</label> <input type="text"
-								class="form-control" name="id" placeholder="아이디" required>
+								class="form-control" id="id" name="id" placeholder="아이디" required>
 							<div class="invalid-feedback">이름을 입력해주세요.</div>
 						</div>
 						<div class="col-md-6 mb-3">
 							<label for="pw">비밀번호</label> <input type="password"
-								class="form-control" name="pw" placeholder="비밀번호" required>
+								class="form-control" id="pw" name="pw" placeholder="비밀번호" required>
 							<div class="invalid-feedback">비밀번호를 입력해주세요.</div>
 						</div>
 						<div class="col-md-6 mb-3">
 							<label for="pw2">비밀번호  확인</label> <input type="password"
-								class="form-control" name="pw2" placeholder="비밀번호" required>
+								class="form-control" id="pw2" name="pw2" placeholder="비밀번호" required>
 							<div class="invalid-feedback">비밀번호를 입력해주세요.</div>
 						</div>
 						<div class="col-md-6 mb-3">

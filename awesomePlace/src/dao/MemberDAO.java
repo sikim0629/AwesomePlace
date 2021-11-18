@@ -84,7 +84,7 @@ public class MemberDAO {
 		ResultSet rs = null;
 
 		try {
-			String sql = "SELECT cid cpassword FROM member WHERE cid = ?";
+			String sql = "SELECT cid, cpassword FROM member WHERE cid = ?";
 			conn = ConnectionPool.get();
 			stmt = conn.prepareStatement(sql);
 			stmt.setString(1, cid);
@@ -92,7 +92,7 @@ public class MemberDAO {
 
 			if (!rs.next())
 				return 1;
-			if (!cpassword.equals(rs.getNString("cpassword")))
+			if (!cpassword.equals(rs.getString("cpassword")))
 				return 2;
 
 			return 0;

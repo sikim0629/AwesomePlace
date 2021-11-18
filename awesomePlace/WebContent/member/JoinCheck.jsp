@@ -8,7 +8,7 @@
 	PrintWriter writer = response.getWriter();
 	String userId = null;
 	String id = request.getParameter("id");
-	String pw = request.getParameter("pw");
+	String pw = request.getParameter("pw2");
 	String name = request.getParameter("name");
 	String gender = request.getParameter("gender");
 	

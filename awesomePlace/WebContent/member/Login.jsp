@@ -61,7 +61,7 @@ body{
 			<hr>
 				<h1 class="h3 mb-3 font-weight-normal">로그인</h1>
 				<label for="inputEmail" class="sr-only">아이디</label>
-				 <input type="text" id="inputEmail" name = "id" class="form-control" placeholder="아이디" required autofocus>
+				 <input type="text" id="inputId" name = "id" class="form-control" placeholder="아이디" required autofocus>
 				<label for="inputPassword" class="sr-only">비밀번호</label> 
 				<input type="password" id="inputPassword" name = "pass" class="form-control" placeholder="비밀번호" required>
 	
