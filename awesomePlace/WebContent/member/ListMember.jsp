@@ -9,6 +9,8 @@
 <title>회원관리</title>
 </head>
 <body>
+
+<!-- 관리자 회원관리 페이지 -->
 <%@ include file = "/header.jsp" %>
 <%
 	ArrayList<MemberObj> members = (new MemberDAO()).getList();

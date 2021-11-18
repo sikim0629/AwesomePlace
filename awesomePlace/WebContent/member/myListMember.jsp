@@ -9,6 +9,9 @@
 <title>회원관리</title>
 </head>
 <body>
+
+<!-- 	일반 회원 관리 페이지 입니다  -->
+
 <%@ include file = "/header.jsp" %>
 <%
 	ArrayList<MemberObj> members = (new MemberDAO()).getMyList(userID);
