@@ -1,0 +1,6 @@
+데이스베이스명 : awesomeplace
+테이블 : board / member / event / menu		->		참고자료 : /WebContent/resource/SQL
+
+-----------------------------------------
+관리자 ID : admin ( header.jsp 에서 관리자 세션부분 수정해서 사용)
+관리자 PW : 1234 (자유로 설정)
