@@ -31,6 +31,11 @@
   user-select: none;
 }
 
+a , a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
 </style>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">

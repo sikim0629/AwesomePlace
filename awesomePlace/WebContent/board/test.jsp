@@ -34,10 +34,10 @@
 					for (BoardObj board : boards) {
 				%>
 				<tr>
-					<th scope="row" class="test"><a href="detailBoard.jsp?id=<%=board.getId()%>"><%=i++%></a></th>
-					<td class="test"><a href="detailBoard.jsp?id=<%=board.getId()%>"><%=board.getTitle()%></a></td>
-					<td class="test"><a href="detailBoard.jsp?id=<%=board.getId()%>"><%=board.getMember()%></a></td>
-					<td class="test"><a href="detailBoard.jsp?id=<%=board.getId()%>"><%=board.getDate()%></a></td>
+					<th scope="row"><%=i++%></th>
+					<td><a href="detailBoard.jsp?id=<%=board.getId()%>"><%=board.getTitle()%></a></td>
+					<td><%=board.getMember()%></td>
+					<td><%=board.getDate()%></td>
 				</tr>
 				<%
 					}
