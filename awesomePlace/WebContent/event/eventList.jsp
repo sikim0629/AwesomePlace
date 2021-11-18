@@ -36,12 +36,16 @@
 					%>
 					<tr>
 						<th>
-							<div class="row row-cols-1 row-cols-md-3 g-4">
+<!-- 							<div class="row row-cols-1 row-cols-md-3 g-4"> -->
+
+								<div class="card-columns">
 								<%
 									for (EventObj event : events) {
 								%>
-								<div class="col">
-									<div class="card h-100">
+<!-- 								<div class="col"> -->
+<!-- 									<div class="card h-100"> -->
+
+									<div class="card">
 										<%
 											if (event.getEfilename() != null) {
 										%>
@@ -58,7 +62,8 @@
 												class="btn btn-outline-success">이벤트 바로가기</a>
 										</div>
 									</div>
-								</div>
+									
+<!-- 								</div> -->
 								<%
 									}
 								%>
