@@ -7,12 +7,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>이벤트</title>
+<title>공지사항 및 이벤트</title>
 </head>
 <body>
 	<%@ include file="/header.jsp"%>
 	<div class="alert alert-secondary" role="alert">
-	  <h1>이벤트 등록<span class="badge bg-secondary">New</span></h1>
+	  <h1>공지사항 및 이벤트 등록<span class="badge bg-secondary">New</span></h1>
 	</div>
 	<div class="container">
 		<div class="row">

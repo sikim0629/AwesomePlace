@@ -8,12 +8,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>공지사항</title>
+<title>공지사항 및 이벤트</title>
 </head>
 <body>
 <%@ include file = "/header.jsp" %>
 <div class="alert alert-secondary" role="alert">
-			<h1>이벤트</h1>
+			<h1>공지사항 및 이벤트</h1>
 </div>
 <%
 	request.setCharacterEncoding("utf-8");

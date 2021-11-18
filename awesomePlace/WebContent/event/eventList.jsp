@@ -6,13 +6,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>이벤트</title>
+<title>공지사항 및 이벤트</title>
 </head>
 <body>
 	<%@ include file="/header.jsp"%>
 	<div class="alert alert-light" role="alert">
 		<h1>
-			<strong>이벤트</strong>
+			<strong>공지사항 및 이벤트</strong>
 		</h1>
 	</div>
 	<div class="container">

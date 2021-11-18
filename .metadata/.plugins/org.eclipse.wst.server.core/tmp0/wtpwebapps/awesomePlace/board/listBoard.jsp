@@ -7,12 +7,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>공지사항</title>
+<title>게시판</title>
 </head>
 <body>
 	<%@ include file="/header.jsp"%>
 	<div class="alert alert-secondary" role="alert">
-		<h1>공지사항</h1>
+		<h1>게시판</h1>
 	</div>
 	<div class="container">
 		<div class="row">
