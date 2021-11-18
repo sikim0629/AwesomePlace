@@ -46,9 +46,11 @@
           </ul>
         </li>
 		 </ul>
-			<ul class="nav justify-content-end">
+<!-- 		 로그인 버튼 맨 우측으로 보내기 -->
+			<ul class="nav justify-content-end"> 
 			  <li class="nav-item dropdown">
 		<%
+		// 현재 로그인 된 아이디 세션
 			String userID = null;
 			if (session.getAttribute("id") != null) {
 				userID = (String) session.getAttribute("id");
@@ -64,6 +66,7 @@
 		            <li><a class="dropdown-item" href="/member/Join.jsp">회원가입</a></li>
 		          </ul>
 		<%
+			// 관리자 아이디일 때
 			} else if (userID != null && userID.equals("admin")) {
 		%>
 				  <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -74,6 +77,7 @@
 		            <li><a class="dropdown-item" href="/member/ListMember.jsp">회원관리</a></li>
 		          </ul>
 		<%
+			// 일반 아이디
 			} else {
 		%>
 		          <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
