@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>회원관리</title>
+<title>회원탈퇴</title>
 </head>
 <body>
 

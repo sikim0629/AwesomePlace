@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>AwesomePlace</title>
+<title>Awesome Place</title>
 <!-- CSS 5.1.3 최신 버전입니다 -->
 
 </head>

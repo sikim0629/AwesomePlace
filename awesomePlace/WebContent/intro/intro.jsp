@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>카페 연혁</title>
 </head>
 <style>
 
@@ -28,7 +28,7 @@
 <body>
 <%@ include file = "/header.jsp" %>
 <div class="site_top">
-    <div><a href="#none"><img src="/resource/images/bg/bg050.jpg"/></a></div>
+    <div><a href="#none"><img src="/resource/images/bg/bg050.jpg" height=350px width=100%/></a></div>
 </div>
 <div class="titleArea" style="background-image: url("/resourceimages/bg/gb050.jpg"); height:339px; padding:0px; display:block;"><div class="top">
         <h1>

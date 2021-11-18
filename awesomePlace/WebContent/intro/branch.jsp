@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>매장 찾기</title>
 <style>
 
 .body {

@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>awesome dessert</title>
+<title>Dessert : Awesome Place</title>
 </head>
 <body>
 <!-- header -->

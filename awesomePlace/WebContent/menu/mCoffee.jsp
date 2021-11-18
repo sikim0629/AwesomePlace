@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>awesome coffee</title>
+<title>Coffee : Awesome Place</title>
 </head>
 <body>
 <!-- header -->
